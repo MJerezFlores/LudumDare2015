@@ -3,8 +3,8 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 var app = require('express')();
 var path = require('path');
-var rulesBuilder = require('./model/RulesBuilder');
-var routesTable = require('./model/RoutesTable').routes;
+var rulesBuilder = require('./RulesBuilder');
+var routesTable = require('./RoutesTable').routes;
 
 
 configureServer();
