@@ -1,0 +1,6 @@
+{
+  "name": "Lucifer-server",
+  "description": "score board for lucifer.exe ludum dare game",
+  "repository": "https://github.com/MJerezFlores/LudumDare2015",
+  "keywords": ["node", "express", "ludm", "dare"]
+}
