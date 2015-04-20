@@ -3,7 +3,7 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function (req, res) {
-    res.render('index', {title: 'nespresso'});
+    res.render('index', {title: 'lucifer.exe'});
 });
 
 module.exports = router;

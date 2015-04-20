@@ -1,6 +1,5 @@
 var express = require('express');
 var path = require('path');
-var favicon = require('serve-favicon');
 var NotFoundHandler = require('./handlers/errors/NotFound');
 
 exports.build = function makeRules(app, routesTable) {
@@ -13,7 +12,6 @@ function addRoutes(app, routesTable) {
         app.use(key, routesTable[key])
         console.log("adding route: " + key);
     }
-    //app.use(favicon(__dirname + '/public/favicon.ico'));
     console.log("adding static dir: " + path.join('..', 'public'));
     app.use(express.static(path.join('..', 'public')));
 }
